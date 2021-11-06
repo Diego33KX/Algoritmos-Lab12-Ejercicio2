@@ -39,8 +39,8 @@ for i in lista_datos_nodo:
         root = lista_datos_nodo[0]
     else:
          insertNode(root, i)
-#import tree as t
-#t.printLevelOrder(root)
+import tree as t
+t.printLevelOrder(root)
 print()
 print("NODOS PRINCIPALES")
 print("root.data =",root.data)
